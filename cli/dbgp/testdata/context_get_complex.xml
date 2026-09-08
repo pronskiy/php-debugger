@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="context_get" transaction_id="5" context="0">
+<property name="$count" fullname="$count" type="string" size="13" encoding="base64"><![CDATA[SGVsbG8sIFdvcmxkIQ==]]></property>
+<property name="$name" fullname="$name" type="string" size="5" encoding="base64"><![CDATA[V29ybGQ=]]></property>
+<property name="$numbers" fullname="$numbers" type="array" children="1" numchildren="5" page="0" pagesize="32">
+<property name="0" fullname="$numbers[0]" type="int"><![CDATA[1]]></property>
+<property name="1" fullname="$numbers[1]" type="int"><![CDATA[2]]></property>
+<property name="2" fullname="$numbers[2]" type="int"><![CDATA[3]]></property>
+<property name="3" fullname="$numbers[3]" type="int"><![CDATA[4]]></property>
+<property name="4" fullname="$numbers[4]" type="int"><![CDATA[5]]></property>
+</property>
+<property name="$sum" fullname="$sum" type="int"><![CDATA[15]]></property>
+<property name="$user" fullname="$user" type="array" children="1" numchildren="3" page="0" pagesize="32">
+<property name="name" fullname="$user[&quot;name&quot;]" type="string" size="5" encoding="base64"><![CDATA[QWxpY2U=]]></property>
+<property name="email" fullname="$user[&quot;email&quot;]" type="string" size="17" encoding="base64"><![CDATA[YWxpY2VAZXhhbXBsZS5jb20=]]></property>
+<property name="active" fullname="$user[&quot;active&quot;]" type="bool"><![CDATA[1]]></property>
+</property>
+<property name="$obj" fullname="$obj" type="object" classname="App\Service\MyService" children="1" numchildren="2">
+<property name="cache" fullname="$obj-&gt;cache" type="object" classname="App\Cache" children="1" numchildren="1">
+<property name="items" fullname="$obj-&gt;cache-&gt;items" type="array" children="1" numchildren="3">
+<property name="0" fullname="$obj-&gt;cache-&gt;items[0]" type="string"><![CDATA[item1]]></property>
+</property>
+</property>
+<property name="id" fullname="$obj-&gt;id" type="int"><![CDATA[42]]></property>
+</property>
+<property name="$emptyArray" fullname="$emptyArray" type="array" children="0" numchildren="0"></property>
+<property name="$nullVal" fullname="$nullVal" type="null"></property>
+<property name="$boolVal" fullname="$boolVal" type="bool"><![CDATA[1]]></property>
+</response>

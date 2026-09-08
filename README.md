@@ -161,6 +161,14 @@ Works with existing PhpStorm debug configurations. No IDE changes needed.
 
 Works as-is. No changes needed.
 
+### Agents
+
+[Agents CLI](cli/README.md)
+
+```
+dbg -breakpoint src/Controller/HomeController.php:25
+```
+
 ## Xdebug Compatibility
 
 PHP Debugger maintains compatibility with Xdebug's debug mode:
